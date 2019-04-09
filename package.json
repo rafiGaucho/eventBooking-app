@@ -6,12 +6,14 @@
   "repository": "https://github.com/rafiGaucho/eventBooking-app.git",
   "author": "rafiGaucho <rafigaucho10r@gmail.com>",
   "license": "MIT",
-  "scripts":{
-    "start":"nodemon app.js"
+  "scripts": {
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
